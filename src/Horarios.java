@@ -53,17 +53,16 @@ public class Horarios {
             System.out.println("6. " + Ciudadania.getNombre());
             System.out.println("7. Salir");
 
-            // Leer la opción seleccionada
             int opcion = scanner.nextInt();
-            scanner.nextLine();  // Consumir la nueva línea
+            scanner.nextLine();
 
-            if (opcion == 4) {
-                // Salir del programa
+            if (opcion == 7) {
+
                 System.out.println("Saliendo...");
                 break;
             }
 
-            // Selección de la materia
+
             Materia materiaSeleccionada = null;
             switch (opcion) {
                 case 1-> materiaSeleccionada = CalculoI;
